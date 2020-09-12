@@ -1,6 +1,6 @@
 # Validate
 
-Validate is a standard module that provides a way to validate TypeScript/JavaScript objects.
+Validate is a standard Deno module that provides a way to validate TypeScript/JavaScript objects.
 
 ## ❗ Issues
 
