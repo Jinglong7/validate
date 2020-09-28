@@ -1,6 +1,21 @@
 # Validate
 
-Validate is a standard Deno module that provides a way to validate TypeScript/JavaScript objects.
+Validate is a standard Deno module for validating string.
+
+## 🔧 How to use
+
+```ts
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.1.0/mod.ts';
+```
+
+## 💡 Usage
+
+```ts
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.1.0/mod.ts';
+
+console.log(validate.isAlpha('Validate')); // true
+console.log(isBoolean('true')); // true
+```
 
 ## ❗ Issues
 
