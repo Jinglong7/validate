@@ -7,4 +7,7 @@ export * from './libs/isAlphanumeric.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isAscii.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isBIC.ts';
+
+// @ts-ignore allowing typedoc to build
 export * from './libs/isBoolean.ts';

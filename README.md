@@ -7,8 +7,8 @@ Validate is a standard Deno module for validating string.
 * [x] isAfter
 * [x] isAlpha
 * [x] isAlphanumeric
-* [ ] isAscii
-* [ ] isBIC
+* [x] isAscii
+* [x] isBIC
 * [ ] isBase32
 * [ ] isBase64
 * [ ] isBefore
