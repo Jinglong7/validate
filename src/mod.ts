@@ -18,3 +18,5 @@ export * from './libs/isBIC.ts';
 export * from './libs/isBoolean.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isBtcAddress.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isByteLength.ts';
