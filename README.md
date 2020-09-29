@@ -4,15 +4,11 @@ Validate is a standard Deno module for validating string.
 
 ## 🎁 Features
 
-* [x] isAfter
-* [x] isAlpha
-* [x] isAlphanumeric
-* [ ] isAscii
-* [ ] isBIC
-* [ ] isBase32
-* [ ] isBase64
-* [ ] isBefore
-* [ ] isBoolean
+* [x] isAfter [x] isAlpha [x] isAlphanumeric [ ] isAscii [ ] isBIC [ ] isBase32 [ ] isBase64 [ ] isBefore [x] isBoolean [ ] isBtcAddress
+* [ ] isByteLength [ ] isCreditCard [ ] isCurrency.ts [ ] isDataURI [ ] isDate [ ] isDecimal [ ] isDivisibleBy [ ] isEAN [ ] isEmail
+* [ ] isEmpty [ ] isEthereumAddress [ ] isFQDN [ ] isFloat [ ] isFullWidth [ ] isHalfWidth [ ] isHash [ ] isHexColor [ ] isHexadecimal [ ] isHsl
+* [ ] isIBAN [ ] isIMEI [ ] isIP [ ] isIPRange [ ] isISBN [ ] isISIN [ ] isISO31661Alpha2.ts [ ] isISO31661Alpha3 [ ] isISO8601 [ ] isISRC
+* [ ] isISSN [ ] isIdentityCard.ts [ ] isIn [ ] isInt [ ] isJSON [ ] isJWT [ ] isLatLong [ ] isLength [ ] isLocale [ ] isLowercase
 
 ## 🔧 How to use
 
