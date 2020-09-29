@@ -20,3 +20,5 @@ export * from './libs/isBoolean.ts';
 export * from './libs/isBtcAddress.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isByteLength.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isCreditCard.ts';
