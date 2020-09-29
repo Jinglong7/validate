@@ -2,6 +2,18 @@
 
 Validate is a standard Deno module for validating string.
 
+## 🎁 Features
+
+* [x] isAfter
+* [x] isAlpha
+* [x] isAlphanumeric
+* [ ] isAscii
+* [ ] isBIC
+* [ ] isBase32
+* [ ] isBase64
+* [ ] isBefore
+* [ ] isBoolean
+
 ## 🔧 How to use
 
 ```ts
