@@ -4,11 +4,79 @@ Validate is a standard Deno module for validating string.
 
 ## 🎁 Features
 
-* [x] isAfter [x] isAlpha [x] isAlphanumeric [ ] isAscii [ ] isBIC [ ] isBase32 [ ] isBase64 [ ] isBefore [x] isBoolean [ ] isBtcAddress
-* [ ] isByteLength [ ] isCreditCard [ ] isCurrency.ts [ ] isDataURI [ ] isDate [ ] isDecimal [ ] isDivisibleBy [ ] isEAN [ ] isEmail
-* [ ] isEmpty [ ] isEthereumAddress [ ] isFQDN [ ] isFloat [ ] isFullWidth [ ] isHalfWidth [ ] isHash [ ] isHexColor [ ] isHexadecimal [ ] isHsl
-* [ ] isIBAN [ ] isIMEI [ ] isIP [ ] isIPRange [ ] isISBN [ ] isISIN [ ] isISO31661Alpha2.ts [ ] isISO31661Alpha3 [ ] isISO8601 [ ] isISRC
-* [ ] isISSN [ ] isIdentityCard.ts [ ] isIn [ ] isInt [ ] isJSON [ ] isJWT [ ] isLatLong [ ] isLength [ ] isLocale [ ] isLowercase
+* [x] isAfter
+* [x] isAlpha
+* [x] isAlphanumeric
+* [ ] isAscii
+* [ ] isBIC
+* [ ] isBase32
+* [ ] isBase64
+* [ ] isBefore
+* [x] isBoolean
+* [ ] isBtcAddress
+* [ ] isByteLength
+* [ ] isCreditCard
+* [ ] isCurrency.ts
+* [ ] isDataURI
+* [ ] isDate
+* [ ] isDecimal
+* [ ] isDivisibleBy
+* [ ] isEAN
+* [ ] isEmail
+* [ ] isEmpty
+* [ ] isEthereumAddress
+* [ ] isFQDN
+* [ ] isFloat
+* [ ] isFullWidth
+* [ ] isHalfWidth
+* [ ] isHash
+* [ ] isHexColor
+* [ ] isHexadecimal
+* [ ] isHsl
+* [ ] isIBAN
+* [ ] isIMEI
+* [ ] isIP
+* [ ] isIPRange
+* [ ] isISBN
+* [ ] isISIN
+* [ ] isISO31661Alpha2
+* [ ] isISO31661Alpha3
+* [ ] isISO8601
+* [ ] isISRC
+* [ ] isISSN
+* [ ] isIdentityCard
+* [ ] isIn
+* [ ] isInt
+* [ ] isJSON
+* [ ] isJWT
+* [ ] isLatLong
+* [ ] isLength
+* [ ] isLocale
+* [ ] isLowercase
+* [ ] isMACAddress
+* [ ] isMD5
+* [ ] isMagnetURI
+* [ ] isMimeType
+* [ ] isMobilePhone
+* [ ] isMongoId
+* [ ] isMultibyte
+* [ ] isNumeric
+* [ ] isOctal
+* [ ] isPassportNumber
+* [ ] isPort
+* [ ] isPostalCode
+* [ ] isRFC3339
+* [ ] isRgbColor
+* [ ] isSemVer
+* [ ] isSlug
+* [ ] isSurrogatePair
+* [ ] isSvg
+* [ ] isTaxID
+* [ ] isURL
+* [ ] isUUID
+* [ ] isUppercase
+* [ ] isVariableWidth
+* [ ] isWhitelisted
 
 ## 🔧 How to use
 
