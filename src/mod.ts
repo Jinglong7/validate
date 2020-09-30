@@ -42,3 +42,5 @@ export * from './libs/isFloat.ts';
 export * from './libs/isFQDN.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isFullWidth.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isHalfWidth.ts';
