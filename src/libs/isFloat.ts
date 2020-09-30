@@ -24,4 +24,4 @@ export const isFloat = (str: string, options?: FloatOptions) => {
       return false; 
   }
   return float.test(str);
-}
+};
