@@ -26,3 +26,5 @@ export * from './libs/isCreditCard.ts';
 export * from './libs/isCurrency.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isDataURI.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isDecimal.ts';
