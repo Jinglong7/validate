@@ -27,6 +27,8 @@ export * from './libs/isCurrency.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isDataURI.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isDate.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isDecimal.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isDivisibleBy.ts';

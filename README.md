@@ -18,7 +18,7 @@ Validate is a standard Deno module for validating string.
 * [x] isCreditCard
 * [x] isCurrency
 * [x] isDataURI
-* [ ] isDate
+* [x] isDate
 * [x] isDecimal
 * [x] isDivisibleBy
 * [x] isEAN
@@ -113,6 +113,10 @@ How to contribute:
 - Discuss ideas in issues
 - Spread the word
 - Reach out with any feedback
+
+## ✨ Contributors
+
+Huge thanks to [Validator contributors](https://github.com/validatorjs).
 
 ## ⚖️ License
 
