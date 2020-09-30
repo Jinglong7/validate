@@ -24,3 +24,5 @@ export * from './libs/isByteLength.ts';
 export * from './libs/isCreditCard.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isCurrency.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isDataURI.ts';
