@@ -22,3 +22,9 @@ export * from './libs/isBtcAddress.ts';
 export * from './libs/isByteLength.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isCreditCard.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isEmail';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isFloat.ts';
+//@ts-ignore allowing typedoc to build
+export * from './libs/isInt';
