@@ -38,3 +38,5 @@ export * from './libs/isEmpty.ts';
 export * from './libs/isEthereumAddress.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isFloat.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isFQDN.ts';
