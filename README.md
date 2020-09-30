@@ -52,7 +52,7 @@ Validate is a standard Deno module for validating string.
 * [ ] isLatLong
 * [ ] isLength
 * [ ] isLocale
-* [ ] isLowercase
+* [x] isLowercase
 * [ ] isMACAddress
 * [ ] isMD5
 * [ ] isMagnetURI
