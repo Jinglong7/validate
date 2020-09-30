@@ -31,4 +31,6 @@ export * from './libs/isDecimal.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isDivisibleBy.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isEAN.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isFloat.ts';

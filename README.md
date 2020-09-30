@@ -21,12 +21,12 @@ Validate is a standard Deno module for validating string.
 * [ ] isDate
 * [x] isDecimal
 * [x] isDivisibleBy
-* [ ] isEAN
+* [x] isEAN
 * [ ] isEmail
 * [ ] isEmpty
 * [ ] isEthereumAddress
 * [ ] isFQDN
-* [ ] isFloat
+* [x] isFloat
 * [ ] isFullWidth
 * [ ] isHalfWidth
 * [ ] isHash
