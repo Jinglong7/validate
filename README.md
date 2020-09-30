@@ -24,7 +24,7 @@ Validate is a standard Deno module for validating string.
 * [x] isEAN
 * [ ] isEmail
 * [x] isEmpty
-* [ ] isEthereumAddress
+* [x] isEthereumAddress
 * [ ] isFQDN
 * [x] isFloat
 * [ ] isFullWidth
