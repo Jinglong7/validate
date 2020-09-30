@@ -40,3 +40,5 @@ export * from './libs/isEthereumAddress.ts';
 export * from './libs/isFloat.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isFQDN.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isFullWidth.ts';
