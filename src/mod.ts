@@ -23,7 +23,6 @@ export * from './libs/isByteLength.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isCreditCard.ts';
 // @ts-ignore allowing typedoc to build
-export * from './libs/isLowerCase.ts';
 export * from './libs/isCurrency.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isDataURI.ts';
@@ -47,3 +46,5 @@ export * from './libs/isFQDN.ts';
 export * from './libs/isFullWidth.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isHalfWidth.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isLowerCase.ts';
