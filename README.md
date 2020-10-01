@@ -16,20 +16,20 @@ Validate is a standard Deno module for validating string.
 * [x] isBtcAddress
 * [x] isByteLength
 * [x] isCreditCard
-* [ ] isCurrency.ts
-* [ ] isDataURI
-* [ ] isDate
-* [ ] isDecimal
-* [ ] isDivisibleBy
-* [ ] isEAN
+* [x] isCurrency
+* [x] isDataURI
+* [x] isDate
+* [x] isDecimal
+* [x] isDivisibleBy
+* [x] isEAN
 * [ ] isEmail
-* [ ] isEmpty
-* [ ] isEthereumAddress
-* [ ] isFQDN
-* [ ] isFloat
-* [ ] isFullWidth
-* [ ] isHalfWidth
-* [ ] isHash
+* [x] isEmpty
+* [x] isEthereumAddress
+* [x] isFloat
+* [x] isFQDN
+* [x] isFullWidth
+* [x] isHalfWidth
+* [x] isHash
 * [ ] isHexColor
 * [ ] isHexadecimal
 * [ ] isHsl
@@ -52,7 +52,7 @@ Validate is a standard Deno module for validating string.
 * [ ] isLatLong
 * [ ] isLength
 * [ ] isLocale
-* [ ] isLowercase
+* [x] isLowercase
 * [ ] isMACAddress
 * [ ] isMD5
 * [ ] isMagnetURI
@@ -81,13 +81,13 @@ Validate is a standard Deno module for validating string.
 ## 🔧 How to use
 
 ```ts
-import { validate, isBoolean } from 'https://deno.land/x/validate@v0.1.0/mod.ts';
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.2.0/mod.ts';
 ```
 
 ## 💡 Usage
 
 ```ts
-import { validate, isBoolean } from 'https://deno.land/x/validate@v0.1.0/mod.ts';
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.2.0/mod.ts';
 
 console.log(validate.isAlpha('Validate')); // true
 console.log(isBoolean('true')); // true
@@ -113,6 +113,49 @@ How to contribute:
 - Discuss ideas in issues
 - Spread the word
 - Reach out with any feedback
+
+## ✨ Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Bunlong">
+        <img src="https://avatars0.githubusercontent.com/u/1308397?s=400&u=945dc6b97571e2b98b659d34b1c81ae2514046bf&v=4" width="100" alt="Bunlong" />
+        <br />
+        <sub>
+          <b>Bunlong</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/hamptonmoore">
+        <img src="https://avatars2.githubusercontent.com/u/8162992?s=400&u=ff3c4f793bb7126181761fab57cf799a4524503b&v=4" width="100" alt="Hampton" />
+        <br />
+        <sub>
+          <b>Hampton</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SuperC03">
+        <img src="https://avatars2.githubusercontent.com/u/42807913?s=400&u=fe371d8db5785f6c826a20a39dc41fdffa3fcc0b&v=4" width="100" alt="Colin" />
+        <br />
+        <sub>
+          <b>Colin</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lholliger">
+        <img src="https://avatars3.githubusercontent.com/u/14064434?s=400&u=2d718e5a1cee7719fdab4e0e0d4e99f8bd26e2ba&v=4" width="100" alt="Lukas" />
+        <br />
+        <sub>
+          <b>Lukas</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## ⚖️ License
 

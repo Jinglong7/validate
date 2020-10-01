@@ -1,4 +1,23 @@
-## 0.1.0 (2020-10-29)
+## 0.2.0 (2020-10-01)
+
+#### ✨ Enhancement
+
+* [x] isCurrency
+* [x] isDataURI
+* [x] isDate
+* [x] isDecimal
+* [x] isDivisibleBy
+* [x] isEAN
+* [x] isEmpty
+* [x] isEthereumAddress
+* [x] isFloat
+* [x] isFQDN
+* [x] isFullWidth
+* [x] isHalfWidth
+* [x] isHash
+* [x] isLowercase
+
+## 0.1.0 (2020-09-29)
 
 #### ✨ Enhancement
 
