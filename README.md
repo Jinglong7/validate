@@ -40,8 +40,6 @@ How to contribute:
 
 ## ✨ Contributors
 
-Huge thanks to [Validator contributors](https://github.com/validatorjs).
-
 <table>
   <tr>
     <td align="center">
