@@ -24,3 +24,26 @@ export * from './libs/isByteLength.ts';
 export * from './libs/isCreditCard.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
+export * from './libs/isCurrency.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isDataURI.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isDate.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isDecimal.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isDivisibleBy.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isEAN.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isEmpty.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isEthereumAddress.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isFloat.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isFQDN.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isFullWidth.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isHalfWidth.ts';
