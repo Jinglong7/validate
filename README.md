@@ -16,19 +16,19 @@ Validate is a standard Deno module for validating string.
 * [x] isBtcAddress
 * [x] isByteLength
 * [x] isCreditCard
-* [ ] isCurrency.ts
-* [ ] isDataURI
-* [ ] isDate
-* [ ] isDecimal
-* [ ] isDivisibleBy
-* [ ] isEAN
+* [x] isCurrency
+* [x] isDataURI
+* [x] isDate
+* [x] isDecimal
+* [x] isDivisibleBy
+* [x] isEAN
 * [ ] isEmail
-* [ ] isEmpty
-* [ ] isEthereumAddress
-* [ ] isFQDN
-* [ ] isFloat
-* [ ] isFullWidth
-* [ ] isHalfWidth
+* [x] isEmpty
+* [x] isEthereumAddress
+* [x] isFloat
+* [x] isFQDN
+* [x] isFullWidth
+* [x] isHalfWidth
 * [ ] isHash
 * [ ] isHexColor
 * [ ] isHexadecimal
@@ -52,7 +52,7 @@ Validate is a standard Deno module for validating string.
 * [ ] isLatLong
 * [ ] isLength
 * [ ] isLocale
-* [ ] isLowercase
+* [x] isLowercase
 * [ ] isMACAddress
 * [ ] isMD5
 * [ ] isMagnetURI
@@ -113,6 +113,10 @@ How to contribute:
 - Discuss ideas in issues
 - Spread the word
 - Reach out with any feedback
+
+## ✨ Contributors
+
+Huge thanks to [Validator contributors](https://github.com/validatorjs).
 
 ## ⚖️ License
 
