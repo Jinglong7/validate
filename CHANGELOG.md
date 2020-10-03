@@ -2,6 +2,27 @@
 
 #### ✨ Enhancement
 
+* [x] isIn
+* [x] isInt
+* [x] isJSON
+* [x] isJWT
+* [x] isLatLong
+* [x] isLength
+* [x] isLocale
+* [x] isMACAddress
+* [x] isMagnetURI
+* [x] isMD5
+* [x] isMimeType
+* [x] isMobilePhone
+* [x] isMongoId
+* [x] isMultibyte
+* [x] isNumeric
+* [x] isOctal
+
+## 0.3.0 (2020-10-03)
+
+#### ✨ Enhancement
+
 * [x] isEmail
 * [x] isHexColor
 * [x] isHexadecimal

@@ -63,6 +63,10 @@ export * from './libs/isIdentityCard.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isIMEI.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isIn.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isInt.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isIP.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isIPRange.ts';
@@ -81,4 +85,32 @@ export * from './libs/isISRC.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isISSN.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isJSON.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isJWT.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isLatLong.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isLength.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isLocale.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMACAddress.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMagnetURI.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMD5.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMimeType.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMobilePhone.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMongoId.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMultibyte.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isNumeric.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isOctal.ts';
