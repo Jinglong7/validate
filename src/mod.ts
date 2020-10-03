@@ -108,3 +108,5 @@ export * from './libs/isMimeType.ts';
 export * from './libs/isMobilePhone.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isMongoId.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMultibyte.ts';
