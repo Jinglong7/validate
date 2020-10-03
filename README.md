@@ -1,3 +1,7 @@
+<p align="center">
+  ⭐️ Please support us by giving a star! Thanks! ⭐️
+</p>
+
 # Validate
 
 Validate is a standard Deno module for validating string.
@@ -36,6 +40,8 @@ Validate is a standard Deno module for validating string.
 * [x] isIBAN
 * [x] isIdentityCard
 * [x] isIMEI
+* [x] isIn
+* [ ] isInt
 * [x] isIP
 * [x] isIPRange
 * [x] isISBN
@@ -45,8 +51,6 @@ Validate is a standard Deno module for validating string.
 * [x] isISO8601
 * [x] isISRC
 * [x] isISSN
-* [ ] isIn
-* [ ] isInt
 * [ ] isJSON
 * [ ] isJWT
 * [ ] isLatLong
