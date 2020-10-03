@@ -59,6 +59,8 @@ export * from './libs/isHSL.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isIBAN.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isIdentityCard.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isIP.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
