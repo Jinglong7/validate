@@ -87,4 +87,6 @@ export * from './libs/isISSN.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isJSON.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isJWT.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
