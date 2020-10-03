@@ -93,4 +93,6 @@ export * from './libs/isLatLong.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isLength.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isLocale.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
