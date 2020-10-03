@@ -35,6 +35,8 @@ export * from './libs/isDivisibleBy.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isEAN.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isEmail.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isEmpty.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isEthereumAddress.ts';
@@ -48,5 +50,35 @@ export * from './libs/isFullWidth.ts';
 export * from './libs/isHalfWidth.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isHash.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isHexColor.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isHexadecimal.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isHSL.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isIBAN.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isIdentityCard.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isIMEI.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isIP.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isIPRange.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isISBN.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isISIN.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isISO31661Alpha2.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isISO31661Alpha3.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isISO8601.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isISRC.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isISSN.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
