@@ -110,3 +110,5 @@ export * from './libs/isMobilePhone.ts';
 export * from './libs/isMongoId.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isMultibyte.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isNumeric.ts';
