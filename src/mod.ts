@@ -99,4 +99,6 @@ export * from './libs/isLowerCase.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isMACAddress.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isMagnetURI.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isMD5.ts';
