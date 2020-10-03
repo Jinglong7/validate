@@ -112,3 +112,5 @@ export * from './libs/isMongoId.ts';
 export * from './libs/isMultibyte.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isNumeric.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isOctal.ts';
