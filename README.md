@@ -9,13 +9,13 @@ Validate is a standard Deno module for validating string.
 ## 🔧 How to use
 
 ```ts
-import { validate, isBoolean } from 'https://deno.land/x/validate@v0.3.0/mod.ts';
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.4.0/mod.ts';
 ```
 
 ## 💡 Usage
 
 ```ts
-import { validate, isBoolean } from 'https://deno.land/x/validate@v0.3.0/mod.ts';
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.4.0/mod.ts';
 
 console.log(validate.isAlpha('Validate')); // true
 console.log(isBoolean('true')); // true
