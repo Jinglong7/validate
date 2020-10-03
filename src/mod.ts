@@ -104,3 +104,5 @@ export * from './libs/isMagnetURI.ts';
 export * from './libs/isMD5.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isMimeType.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMobilePhone.ts';
