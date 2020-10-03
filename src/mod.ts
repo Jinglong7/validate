@@ -35,6 +35,8 @@ export * from './libs/isDivisibleBy.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isEAN.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isEmail.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isEmpty.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isEthereumAddress.ts';
@@ -48,5 +50,7 @@ export * from './libs/isFullWidth.ts';
 export * from './libs/isHalfWidth.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isHash.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isIP.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
