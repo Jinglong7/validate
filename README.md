@@ -2,6 +2,82 @@
 
 Validate is a standard Deno module for validating string.
 
+## 🎁 Features
+
+* [x] isAfter
+* [x] isAlpha
+* [x] isAlphanumeric
+* [x] isAscii
+* [x] isBase32
+* [x] isBase64
+* [x] isBefore
+* [x] isBIC
+* [x] isBoolean
+* [x] isBtcAddress
+* [x] isByteLength
+* [x] isCreditCard
+* [x] isCurrency
+* [x] isDataURI
+* [x] isDate
+* [x] isDecimal
+* [x] isDivisibleBy
+* [x] isEAN
+* [x] isEmail
+* [x] isEmpty
+* [x] isEthereumAddress
+* [x] isFloat
+* [x] isFQDN
+* [x] isFullWidth
+* [x] isHalfWidth
+* [x] isHash
+* [x] isHexColor
+* [x] isHexadecimal
+* [x] isHsl
+* [x] isIBAN
+* [x] isIdentityCard
+* [x] isIMEI
+* [x] isIP
+* [x] isIPRange
+* [x] isISBN
+* [x] isISIN
+* [x] isISO31661Alpha2
+* [x] isISO31661Alpha3
+* [x] isISO8601
+* [x] isISRC
+* [x] isISSN
+* [ ] isIn
+* [ ] isInt
+* [ ] isJSON
+* [ ] isJWT
+* [ ] isLatLong
+* [ ] isLength
+* [ ] isLocale
+* [x] isLowercase
+* [ ] isMACAddress
+* [ ] isMD5
+* [ ] isMagnetURI
+* [ ] isMimeType
+* [ ] isMobilePhone
+* [ ] isMongoId
+* [ ] isMultibyte
+* [ ] isNumeric
+* [ ] isOctal
+* [ ] isPassportNumber
+* [ ] isPort
+* [ ] isPostalCode
+* [ ] isRFC3339
+* [ ] isRgbColor
+* [ ] isSemVer
+* [ ] isSlug
+* [ ] isSurrogatePair
+* [ ] isSvg
+* [ ] isTaxID
+* [ ] isURL
+* [ ] isUUID
+* [ ] isUppercase
+* [ ] isVariableWidth
+* [ ] isWhitelisted
+
 ## 🔧 How to use
 
 ```ts
