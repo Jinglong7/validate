@@ -102,3 +102,5 @@ export * from './libs/isMACAddress.ts';
 export * from './libs/isMagnetURI.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isMD5.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMimeType.ts';
