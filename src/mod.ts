@@ -65,6 +65,8 @@ export * from './libs/isIMEI.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isIn.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isInt.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isIP.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isIPRange.ts';
