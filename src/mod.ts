@@ -96,3 +96,5 @@ export * from './libs/isLength.ts';
 export * from './libs/isLocale.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isMACAddress.ts';
