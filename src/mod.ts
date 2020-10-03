@@ -73,4 +73,6 @@ export * from './libs/isISIN.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isISO31661Alpha2.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isISO31661Alpha3.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
