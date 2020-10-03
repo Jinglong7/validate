@@ -30,7 +30,7 @@ Validate is a standard Deno module for validating string.
 * [x] isFullWidth
 * [x] isHalfWidth
 * [x] isHash
-* [ ] isHexColor
+* [x] isHexColor
 * [ ] isHexadecimal
 * [ ] isHsl
 * [ ] isIBAN

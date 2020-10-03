@@ -51,6 +51,8 @@ export * from './libs/isHalfWidth.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isHash.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isHexColor.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isIP.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
