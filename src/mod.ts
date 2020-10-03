@@ -79,4 +79,6 @@ export * from './libs/isISO8601.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isISRC.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isISSN.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
