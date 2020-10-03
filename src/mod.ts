@@ -67,4 +67,6 @@ export * from './libs/isIP.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isIPRange.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isISBN.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isLowerCase.ts';
