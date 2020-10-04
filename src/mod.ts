@@ -132,3 +132,5 @@ export * from './libs/isSlug.ts';
 export * from './libs/isSurrogatePair.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isSvg.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isTaxID.ts';
