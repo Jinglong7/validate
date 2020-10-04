@@ -140,3 +140,5 @@ export * from './libs/isUppercase.ts';
 export * from './libs/isURL.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isUUID.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isVariableWidth.ts';

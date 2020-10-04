@@ -79,7 +79,7 @@ Validate is a standard Deno module for validating string.
 * [x] isUppercase
 * [x] isURL
 * [x] isUUID
-* [ ] isVariableWidth
+* [x] isVariableWidth
 * [ ] isWhitelisted
 
 ## 🔧 How to use
