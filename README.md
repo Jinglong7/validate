@@ -68,7 +68,7 @@ Validate is a standard Deno module for validating string.
 * [x] isOctal
 * [x] isPassportNumber
 * [x] isPort
-* [ ] isPostalCode
+* [x] isPostalCode
 * [ ] isRFC3339
 * [ ] isRgbColor
 * [ ] isSemVer

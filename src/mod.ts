@@ -118,3 +118,5 @@ export * from './libs/isOctal.ts';
 export * from './libs/isPassportNumber.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isPort.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isPostalCode.ts';
