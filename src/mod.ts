@@ -130,3 +130,5 @@ export * from './libs/isSemVer.ts';
 export * from './libs/isSlug.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isSurrogatePair.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isSvg.ts';
