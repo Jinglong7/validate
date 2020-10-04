@@ -120,3 +120,5 @@ export * from './libs/isPassportNumber.ts';
 export * from './libs/isPort.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isPostalCode.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isRFC3339.ts';
