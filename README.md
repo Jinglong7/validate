@@ -80,7 +80,7 @@ Validate is a standard Deno module for validating string.
 * [x] isURL
 * [x] isUUID
 * [x] isVariableWidth
-* [ ] isWhitelisted
+* [x] isWhitelisted
 
 ## 🔧 How to use
 

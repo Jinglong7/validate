@@ -1,6 +1,5 @@
 // @ts-ignore allowing typedoc to build
 import assertString from '../utils/assertString.ts';
-
 // @ts-ignore allowing typedoc to build
 import { fullWidth } from './isFullWidth.ts';
 // @ts-ignore allowing typedoc to build
