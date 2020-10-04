@@ -114,3 +114,5 @@ export * from './libs/isMultibyte.ts';
 export * from './libs/isNumeric.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isOctal.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isPassportNumber.ts';
