@@ -138,3 +138,5 @@ export * from './libs/isTaxID.ts';
 export * from './libs/isUppercase.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isURL.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isUUID.ts';
