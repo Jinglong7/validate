@@ -126,3 +126,5 @@ export * from './libs/isRFC3339.ts';
 export * from './libs/isRgbColor.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isSemVer.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isSlug.ts';
