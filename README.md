@@ -70,7 +70,7 @@ Validate is a standard Deno module for validating string.
 * [x] isPort
 * [x] isPostalCode
 * [x] isRFC3339
-* [ ] isRgbColor
+* [x] isRgbColor
 * [ ] isSemVer
 * [ ] isSlug
 * [ ] isSurrogatePair
