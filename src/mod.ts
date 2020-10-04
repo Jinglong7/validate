@@ -124,3 +124,5 @@ export * from './libs/isPostalCode.ts';
 export * from './libs/isRFC3339.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isRgbColor.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isSemVer.ts';
