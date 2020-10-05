@@ -1,3 +1,7 @@
+<p align="center">
+  ⭐️ Please support us by giving a star! Thanks! ⭐️
+</p>
+
 # Validate
 
 Validate is a standard Deno module for validating string.
@@ -22,7 +26,7 @@ Validate is a standard Deno module for validating string.
 * [x] isDecimal
 * [x] isDivisibleBy
 * [x] isEAN
-* [ ] isEmail
+* [x] isEmail
 * [x] isEmpty
 * [x] isEthereumAddress
 * [x] isFloat
@@ -30,64 +34,64 @@ Validate is a standard Deno module for validating string.
 * [x] isFullWidth
 * [x] isHalfWidth
 * [x] isHash
-* [ ] isHexColor
-* [ ] isHexadecimal
-* [ ] isHsl
-* [ ] isIBAN
-* [ ] isIMEI
-* [ ] isIP
-* [ ] isIPRange
-* [ ] isISBN
-* [ ] isISIN
-* [ ] isISO31661Alpha2
-* [ ] isISO31661Alpha3
-* [ ] isISO8601
-* [ ] isISRC
-* [ ] isISSN
-* [ ] isIdentityCard
-* [ ] isIn
-* [ ] isInt
-* [ ] isJSON
-* [ ] isJWT
-* [ ] isLatLong
-* [ ] isLength
-* [ ] isLocale
+* [x] isHexColor
+* [x] isHexadecimal
+* [x] isHsl
+* [x] isIBAN
+* [x] isIdentityCard
+* [x] isIMEI
+* [x] isIn
+* [x] isInt
+* [x] isIP
+* [x] isIPRange
+* [x] isISBN
+* [x] isISIN
+* [x] isISO31661Alpha2
+* [x] isISO31661Alpha3
+* [x] isISO8601
+* [x] isISRC
+* [x] isISSN
+* [x] isJSON
+* [x] isJWT
+* [x] isLatLong
+* [x] isLength
+* [x] isLocale
 * [x] isLowercase
-* [ ] isMACAddress
-* [ ] isMD5
-* [ ] isMagnetURI
-* [ ] isMimeType
-* [ ] isMobilePhone
-* [ ] isMongoId
-* [ ] isMultibyte
-* [ ] isNumeric
-* [ ] isOctal
-* [ ] isPassportNumber
-* [ ] isPort
-* [ ] isPostalCode
-* [ ] isRFC3339
-* [ ] isRgbColor
-* [ ] isSemVer
-* [ ] isSlug
-* [ ] isSurrogatePair
-* [ ] isSvg
-* [ ] isTaxID
-* [ ] isURL
-* [ ] isUUID
+* [x] isMACAddress
+* [x] isMagnetURI
+* [x] isMD5
+* [x] isMimeType
+* [x] isMobilePhone
+* [x] isMongoId
+* [x] isMultibyte
+* [x] isNumeric
+* [x] isOctal
+* [x] isPassportNumber
+* [x] isPort
+* [x] isPostalCode
+* [x] isRFC3339
+* [x] isRgbColor
+* [x] isSemVer
+* [x] isSlug
+* [x] isSurrogatePair
+* [x] isSvg
+* [x] isTaxID
 * [x] isUppercase
-* [ ] isVariableWidth
-* [ ] isWhitelisted
+* [x] isURL
+* [x] isUUID
+* [x] isVariableWidth
+* [x] isWhitelisted
 
 ## 🔧 How to use
 
 ```ts
-import { validate, isBoolean } from 'https://deno.land/x/validate@v0.2.0/mod.ts';
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.4.0/mod.ts';
 ```
 
 ## 💡 Usage
 
 ```ts
-import { validate, isBoolean } from 'https://deno.land/x/validate@v0.2.0/mod.ts';
+import { validate, isBoolean } from 'https://deno.land/x/validate@v0.4.0/mod.ts';
 
 console.log(validate.isAlpha('Validate')); // true
 console.log(isBoolean('true')); // true

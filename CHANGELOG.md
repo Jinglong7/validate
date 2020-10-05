@@ -1,3 +1,45 @@
+## 0.3.0 (2020-10-03)
+
+#### ✨ Enhancement
+
+* [x] isIn
+* [x] isInt
+* [x] isJSON
+* [x] isJWT
+* [x] isLatLong
+* [x] isLength
+* [x] isLocale
+* [x] isMACAddress
+* [x] isMagnetURI
+* [x] isMD5
+* [x] isMimeType
+* [x] isMobilePhone
+* [x] isMongoId
+* [x] isMultibyte
+* [x] isNumeric
+* [x] isOctal
+
+## 0.3.0 (2020-10-03)
+
+#### ✨ Enhancement
+
+* [x] isEmail
+* [x] isHexColor
+* [x] isHexadecimal
+* [x] isHsl
+* [x] isIBAN
+* [x] isIdentityCard
+* [x] isIMEI
+* [x] isIP
+* [x] isIPRange
+* [x] isISBN
+* [x] isISIN
+* [x] isISO31661Alpha2
+* [x] isISO31661Alpha3
+* [x] isISO8601
+* [x] isISRC
+* [x] isISSN
+
 ## 0.2.0 (2020-10-01)
 
 #### ✨ Enhancement
