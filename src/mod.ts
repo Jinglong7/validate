@@ -23,6 +23,8 @@ export * from './libs/isByteLength.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isCreditCard.ts';
 // @ts-ignore allowing typedoc to build
+export * from './libs/isUpperCase.ts';
+// @ts-ignore allowing typedoc to build
 export * from './libs/isCurrency.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isDataURI.ts';
@@ -114,3 +116,31 @@ export * from './libs/isMultibyte.ts';
 export * from './libs/isNumeric.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isOctal.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isPassportNumber.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isPort.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isPostalCode.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isRFC3339.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isRgbColor.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isSemVer.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isSlug.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isSurrogatePair.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isSvg.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isTaxID.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isUppercase.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isURL.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isUUID.ts';
+// @ts-ignore allowing typedoc to build
+export * from './libs/isVariableWidth.ts';
