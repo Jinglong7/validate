@@ -1,10 +1,6 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const isin = /^[A-Z]{2}[0-9A-Z]{9}[0-9]$/;
 
 export const isISIN = (str: string) => {
-  assertString(str);
   if (!isin.test(str)) {
     return false;
   }

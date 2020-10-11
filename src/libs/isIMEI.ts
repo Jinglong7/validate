@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 let imeiRegexWithoutHypens = /^[0-9]{15}$/;
 let imeiRegexWithHypens = /^\d{2}-\d{6}-\d{6}-\d{1}$/;
 
@@ -9,11 +6,9 @@ type IMEIOptions = {
 };
 
 export const isIMEI = (str: string, options?: IMEIOptions) => {
-  assertString(str);
   options = options || {};
 
   // default regex for checking imei is the one without hyphens
-
   let imeiRegex = imeiRegexWithoutHypens;
 
   if (options.allowHyphens) {

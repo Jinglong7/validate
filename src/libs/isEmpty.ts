@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 type EmptyOptions = {
   ignoreWhitespace?: boolean,
 };
@@ -10,7 +7,6 @@ const defaultEmptyOptions: EmptyOptions = {
 };
 
 export const isEmpty = (str: string, options?: EmptyOptions) => {
-  assertString(str);
   options = {
     ...defaultEmptyOptions,
     ...options,

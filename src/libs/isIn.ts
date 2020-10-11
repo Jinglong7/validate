@@ -1,10 +1,7 @@
 // @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-// @ts-ignore allowing typedoc to build
 import toString from '../utils/toString.ts';
 
 export const isIn = (str: string, options?: any) => {
-  assertString(str);
   let i;
   if (Object.prototype.toString.call(options) === '[object Array]') {
     const array: any = [];

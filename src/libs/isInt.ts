@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const int = /^(?:[-+]?(?:0|[1-9][0-9]*))$/;
 const intLeadingZeroes = /^[-+]?[0-9]+$/;
 
@@ -13,7 +10,6 @@ type IntOptions = {
 };
 
 export const isInt = (str: string, options?: IntOptions) => {
-  assertString(str);
   options = options || {};
 
   // Get the regex to use for testing, based on whether

@@ -1,5 +1,4 @@
 // @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
 
 type PhoneLocale =
   | 'am-AM'
@@ -219,7 +218,6 @@ export const isMobilePhone = (
   locale: PhoneLocale,
   options?: MobilePhoneOptions
 ) => {
-  assertString(str);
   if (options && options.strictMode && !str.startsWith('+')) {
     return false;
   }

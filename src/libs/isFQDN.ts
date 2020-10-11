@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 type FQDNOptions = {
   requireTLD?: boolean;
   allowUnderscores?: boolean;
@@ -14,7 +11,6 @@ const defaultFQDNOptions: FQDNOptions = {
 };
 
 export const isFQDN = (str: string, options?: FQDNOptions) => {
-  assertString(str);
   options = {
     ...defaultFQDNOptions,
     ...options

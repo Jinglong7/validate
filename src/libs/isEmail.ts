@@ -1,6 +1,4 @@
 // @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-// @ts-ignore allowing typedoc to build
 import { isByteLength } from './isByteLength.ts';
 // @ts-ignore allowing typedoc to build
 import { isFQDN } from './isFQDN.ts';
@@ -84,7 +82,6 @@ export const validateDisplayName = (displayName: string) => {
  * ```
  */
 export const isEmail = (email: string, options?: EmailOptions) => {
-  assertString(email);
   options = {
     ...defaultEmailOptions,
     ...options
