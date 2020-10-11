@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 type CurrencyOptions = {
   symbol?: string;
   requireSymbol?: boolean;
@@ -103,7 +100,6 @@ const defaultCurrencyOptions: CurrencyOptions = {
 };
 
 export const isCurrency = (str: string, options?: CurrencyOptions) => {
-  assertString(str);
   options = {
     ...defaultCurrencyOptions,
     ...options,

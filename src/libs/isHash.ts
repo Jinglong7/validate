@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 type Algorithm =
   | 'md5'
   | 'md4'
@@ -33,7 +30,6 @@ const lengths = {
 };
 
 export const isHash = (str: string, algorithm: Algorithm) => {
-  assertString(str);
   const hash = new RegExp(`^[a-fA-F0-9]{${lengths[algorithm]}}$`);
   return hash.test(str);
 };

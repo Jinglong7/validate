@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 /**
  * List of country codes with
  * corresponding IBAN regular expression
@@ -141,6 +138,5 @@ const hasValidIbanChecksum = (str: string) => {
 };
 
 export const isIBAN = (str: string) => {
-  assertString(str);
   return hasValidIbanFormat(str) && hasValidIbanChecksum(str);
 };

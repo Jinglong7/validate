@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 /**
  * The most commonly used EAN standard is
  * the thirteen-digit EAN-13, while the
@@ -69,7 +66,6 @@ const calculateCheckDigit = (ean: string) => {
  * @return {boolean}
  */
 export const isEAN = (str: string) => {
-  assertString(str);
   const actualCheckDigit = Number(str.slice(-1));
 
   return (

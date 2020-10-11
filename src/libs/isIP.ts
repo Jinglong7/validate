@@ -1,11 +1,7 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const ipv4Maybe = /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$/;
 const ipv6Block = /^[0-9A-F]{1,4}$/i;
 
 export const isIP = (str: string, ipVersion?: string | number): boolean => {
-  assertString(str);
   const version = ipVersion ? String(ipVersion) : '';
 
   if (!version) {

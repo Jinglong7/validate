@@ -1,9 +1,5 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const validators = {
   ES: (str: string) => {
-    assertString(str);
 
     const DNI = /^[0-9X-Z][0-9]{7}[TRWAGMYFPDXBNJZSQVHLCKE]$/;
 
@@ -385,7 +381,6 @@ type IdentityCardLocale =
   | 'any';
 
 export const isIdentityCard = (str: string, locale: IdentityCardLocale) => {
-  assertString(str);
   if (locale in validators) {
     return (validators as any)[locale](str);
   } else if (locale === 'any') {

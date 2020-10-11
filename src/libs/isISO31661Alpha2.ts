@@ -1,6 +1,4 @@
 // @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-// @ts-ignore allowing typedoc to build
 import includes from '../utils/includes.ts';
 
 // from https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
@@ -260,6 +258,5 @@ const validISO31661Alpha2CountriesCodes = [
 ];
 
 export const isISO31661Alpha2 = (str: string) => {
-  assertString(str);
   return includes(validISO31661Alpha2CountriesCodes, str.toUpperCase());
 };

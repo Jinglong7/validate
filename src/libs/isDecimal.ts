@@ -1,6 +1,4 @@
 // @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-// @ts-ignore allowing typedoc to build
 import { decimal } from '../utils/alpha.ts';
 // @ts-ignore allowing typedoc to build
 import includes from '../utils/includes.ts';
@@ -29,7 +27,6 @@ const defaultDecimalOptions = {
 const blacklist = ['', '-', '+'];
 
 export const isDecimal = (str: string, options?: DecimalOptions) => {
-  assertString(str);
   options = {
     ...defaultDecimalOptions,
     ...options,

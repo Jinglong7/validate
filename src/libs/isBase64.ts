@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const notBase64 = /[^A-Z0-9+\/=]/i;
 const urlSafeBase64 = /^[A-Z0-9_\-]+$/i;
 
@@ -13,7 +10,6 @@ const defaultBase64Options: Base64Options = {
 };
 
 export const isBase64 = (str: string, options?: Base64Options) => {
-  assertString(str);
   options = {
     ...defaultBase64Options,
     ...options,

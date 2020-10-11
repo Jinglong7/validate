@@ -1,12 +1,8 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const validMediaType = /^[a-z]+\/[a-z0-9\-\+]+$/i;
 const validAttribute = /^[a-z\-]+=[a-z0-9\-]+$/i;
 const validData = /^[a-z0-9!\$&'\(\)\*\+,;=\-\._~:@\/\?%\s]*$/i;
 
 export const isDataURI = (str: string) => {
-  assertString(str);
   let data = str.split(',');
   if (data.length < 2) {
     return false;

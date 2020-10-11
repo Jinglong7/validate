@@ -1,12 +1,9 @@
 // @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-// @ts-ignore allowing typedoc to build
 import { isIP } from './isIP.ts';
 
 const subnetMaybe = /^\d{1,2}$/;
 
 export const isIPRange = (str: string) => {
-  assertString(str);
   const parts = str.split('/');
 
   // parts[0] -> ip, parts[1] -> subnet

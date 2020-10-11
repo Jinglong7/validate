@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const issn = '^\\d{4}-?\\d{3}[\\dX]$';
 
 type ISSNOptions = {
@@ -9,7 +6,6 @@ type ISSNOptions = {
 };
 
 export const isISSN = (str: string, options: ISSNOptions = {}) => {
-  assertString(str);
   let testIssn = issn;
   testIssn = options.requireHyphen ? testIssn.replace('?', '') : testIssn;
   const testIssnRegex = options.caseSensitive

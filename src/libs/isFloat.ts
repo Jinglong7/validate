@@ -1,6 +1,4 @@
 // @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-// @ts-ignore allowing typedoc to build
 import { decimal } from '../utils/alpha.ts';
 
 type FloatOptions = {
@@ -12,7 +10,6 @@ type FloatOptions = {
 };
 
 export const isFloat = (str: string, options?: FloatOptions) => {
-  assertString(str);
   options = options || {};
   const float = new RegExp(
     `^(?:[-+])?(?:[0-9]+)?(?:\\${

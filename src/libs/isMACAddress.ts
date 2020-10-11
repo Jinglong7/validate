@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const macAddress = /^([0-9a-fA-F][0-9a-fA-F]:){5}([0-9a-fA-F][0-9a-fA-F])$/;
 const macAddressNoColons = /^([0-9a-fA-F]){12}$/;
 const macAddressWithHyphen = /^([0-9a-fA-F][0-9a-fA-F]-){5}([0-9a-fA-F][0-9a-fA-F])$/;
@@ -12,7 +9,6 @@ type MACAddressOptions = {
 };
 
 export const isMACAddress = (str: string, options?: MACAddressOptions) => {
-  assertString(str);
   if (options && options.noColons) {
     return macAddressNoColons.test(str);
   }

@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 const lat = /^\(?[+-]?(90(\.0+)?|[1-8]?\d(\.\d+)?)$/;
 const long = /^\s?[+-]?(180(\.0+)?|1[0-7]\d(\.\d+)?|\d{1,2}(\.\d+)?)\)?$/;
 
@@ -16,7 +13,6 @@ const defaultLatLongOptions = {
 };
 
 export const isLatLong = (str: string, options?: LatLongOptions) => {
-  assertString(str);
   options = {
     ...defaultLatLongOptions,
     ...options,

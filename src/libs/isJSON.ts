@@ -1,6 +1,3 @@
-// @ts-ignore allowing typedoc to build
-import assertString from '../utils/assertString.ts';
-
 type JSONOptions = {
   allowPrimitives?: boolean;
 };
@@ -10,7 +7,6 @@ const defaultJSONOptions = {
 };
 
 export const isJSON = (str: string, options?: JSONOptions) => {
-  assertString(str);
   try {
     options = {
       ...defaultJSONOptions,
