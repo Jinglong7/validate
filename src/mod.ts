@@ -55,7 +55,7 @@ export * from './libs/isHexColor.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isHexadecimal.ts';
 // @ts-ignore allowing typedoc to build
-export * from './libs/isHSL.ts';
+export * from './libs/isHsl.ts';
 // @ts-ignore allowing typedoc to build
 export * from './libs/isIBAN.ts';
 // @ts-ignore allowing typedoc to build
